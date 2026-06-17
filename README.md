@@ -12,12 +12,6 @@ This platform ingests raw financial statement data (Profit & Loss, Balance Sheet
 - **Streamlit Interactive Dashboard**: Multi-page analyst-facing web interface.
 - **FastAPI Endpoint Service**: 16 REST endpoints for querying data.
 
-## Day 1 Progress
-- Scaffolded project folder structure (`data/`, `src/`, `tests/`, `reports/`, `config/`).
-- Created environment templates (`.env.template`, `.env`).
-- Defined core package dependencies in `requirements.txt`.
-- Set up local raw and supporting dataset directories.
-
 ## Setup Instructions
 
 ### 1. Initialize Virtual Environment
