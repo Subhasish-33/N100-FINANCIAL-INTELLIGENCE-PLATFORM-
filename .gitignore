@@ -1,0 +1,31 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# SQLite DB
+*.db
+*.db-journal
+*.db-wal
+
+# Output and Reports
+reports/tearsheets/*.pdf
+reports/sector/*.pdf
+reports/portfolio/*.pdf
+reports/radar_charts/*.png
+output/*
+!output/.gitkeep
