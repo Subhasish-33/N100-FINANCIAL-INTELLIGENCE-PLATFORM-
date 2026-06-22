@@ -1,0 +1,845 @@
+rule_id,severity,file_name,row_identifier,description
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2013,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2014,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2015,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2016,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2017,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2018,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2019,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2020,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2021,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2022,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2023,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2024,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-TTM,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2013,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2014,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2015,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2016,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2017,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2018,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2019,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2020,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2021,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2022,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2023,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-Mar 2024,Duplicate Ticker and Year combination
+DQ-02,CRITICAL,profitandloss.xlsx,ADANIPORTS-TTM,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Sep 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,ASIANPAINT-Sep 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,PNB-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Sep 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,POWERGRID-Sep 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Sep 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2013,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2014,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2015,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2016,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2017,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2018,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2019,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2020,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2021,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2022,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2023,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Mar 2024,Duplicate Ticker and Year combination
+DQ-03,CRITICAL,balancesheet.xlsx,TECHM-Sep 2024,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2014,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2015,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2016,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2017,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2018,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2019,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2020,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2021,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2022,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2023,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2024,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2014,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2015,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2016,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2017,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2018,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2019,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2020,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2021,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2022,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2023,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,ABB-Mar 2024,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2013,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2014,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2015,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2016,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2017,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2018,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2019,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2020,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2021,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2022,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2023,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2024,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2013,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2014,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2015,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2016,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2017,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2018,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2019,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2020,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2021,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2022,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2023,Duplicate Ticker and Year combination
+DQ-04,CRITICAL,cashflow.xlsx,BAJAJ-AUTO-Mar 2024,Duplicate Ticker and Year combination
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2013,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2014,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2015,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2016,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2017,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2018,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2019,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2020,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2021,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2022,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2023,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-Mar 2024,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ULTRACEMCO-TTM,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2013,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2014,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2015,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2016,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2017,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2018,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2019,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2020,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2021,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2022,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2023,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-Mar 2024,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNIONBANK-TTM,Ticker UNIONBANK not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2013,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2014,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2015,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2016,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2017,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2018,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2019,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2020,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2021,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2022,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2023,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-Mar 2024,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,UNITDSPR-TTM,Ticker UNITDSPR not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2012,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2013,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2014,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2015,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2016,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2017,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2018,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2019,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2020,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2021,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2022,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-Dec 2023,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VBL-TTM,Ticker VBL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2013,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2014,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2015,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2016,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2017,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2018,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2019,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2020,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2021,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2022,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2023,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-Mar 2024,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,VEDL-TTM,Ticker VEDL not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2013,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2014,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2015,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2016,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2017,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2018,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2019,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2020,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2021,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2022,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2023,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-Mar 2024,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,WIPRO-TTM,Ticker WIPRO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2018,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2019,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2020,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2021,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2022,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2023,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-Mar 2024,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZOMATO-TTM,Ticker ZOMATO not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2013,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2014,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2015,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2016,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2017,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2018,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2019,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2020,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2021,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2022,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2023,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-Mar 2024,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-05,CRITICAL,profitandloss.xlsx,ZYDUSLIFE-TTM,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2013,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2014,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2015,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2016,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2017,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2018,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2019,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2020,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2021,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2022,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2023,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2024,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZYDUSLIFE-2024.5,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2018,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2019,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2020,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2021,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2022,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2023,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2024,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ZOMATO-2024.5,Ticker ZOMATO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2013,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2014,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2015,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2016,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2017,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2018,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2019,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2020,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2021,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2022,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2023,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2024,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,WIPRO-2024.5,Ticker WIPRO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2013,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2014,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2015,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2016,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2017,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2018,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2019,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2020,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2021,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2022,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2023,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2024,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,VEDL-2024.5,Ticker VEDL not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2013,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2014,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2015,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2016,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2017,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2018,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2019,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2020,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2021,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2022,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2023,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2024,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNITDSPR-2024.5,Ticker UNITDSPR not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2013,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2014,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2015,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2016,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2017,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2018,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2019,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2020,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2021,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2022,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2023,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,UNIONBANK-Mar 2024,Ticker UNIONBANK not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2013,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2014,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2015,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2016,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2017,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2018,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2019,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2020,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2021,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2022,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2023,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Mar 2024,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-06,CRITICAL,balancesheet.xlsx,ULTRACEMCO-Sep 2024,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2018,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2019,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2020,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2021,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2022,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2023,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,AGTL-Mar 2024,Ticker AGTL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2013,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2014,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2015,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2016,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2017,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2018,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2019,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2020,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2021,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2022,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2023,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ULTRACEMCO-Mar 2024,Ticker ULTRACEMCO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2013,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2014,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2015,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2016,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2017,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2018,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2019,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2020,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2021,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2022,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2023,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNIONBANK-Mar 2024,Ticker UNIONBANK not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2013,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2014,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2015,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2016,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2017,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2018,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2019,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2020,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2021,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2022,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2023,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,UNITDSPR-Mar 2024,Ticker UNITDSPR not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2012,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2013,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2014,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2015,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2016,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2017,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2018,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2019,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2020,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2021,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2022,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VBL-Dec 2023,Ticker VBL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2013,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2014,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2015,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2016,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2017,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2018,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2019,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2020,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2021,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2022,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2023,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,VEDL-Mar 2024,Ticker VEDL not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2013,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2014,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2015,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2016,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2017,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2018,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2019,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2020,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2021,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2022,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2023,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,WIPRO-Mar 2024,Ticker WIPRO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZOMATO-Mar 2020,Ticker ZOMATO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZOMATO-Mar 2021,Ticker ZOMATO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZOMATO-Mar 2022,Ticker ZOMATO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZOMATO-Mar 2023,Ticker ZOMATO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZOMATO-Mar 2024,Ticker ZOMATO not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2013,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2014,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2015,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2016,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2017,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2018,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2019,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2020,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2021,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2022,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2023,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-07,CRITICAL,cashflow.xlsx,ZYDUSLIFE-Mar 2024,Ticker ZYDUSLIFE not found in companies.xlsx
+DQ-11,WARNING,profitandloss.xlsx,ADANIENSOL-TTM,"OPM discrepancy. Actual: 0, Expected: 29.83"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2013,"OPM discrepancy. Actual: 1353.0, Expected: 30.58"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2014,"OPM discrepancy. Actual: 2307.0, Expected: 31.47"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2015,"OPM discrepancy. Actual: 3097.0, Expected: 31.36"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2016,"OPM discrepancy. Actual: 3466.0, Expected: 32.61"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2017,"OPM discrepancy. Actual: -5715.0, Expected: 53.45"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2018,"OPM discrepancy. Actual: -10277.0, Expected: 63.12"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2019,"OPM discrepancy. Actual: -5447.0, Expected: 49.39"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2020,"OPM discrepancy. Actual: -9859.0, Expected: 55.98"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2021,"OPM discrepancy. Actual: -2510.0, Expected: 50.12"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2022,"OPM discrepancy. Actual: 3170.0, Expected: 44.47"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2023,"OPM discrepancy. Actual: 13857.0, Expected: 34.16"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-Mar 2024,"OPM discrepancy. Actual: 11952.0, Expected: 34.69"
+DQ-11,WARNING,profitandloss.xlsx,AXISBANK-TTM,"OPM discrepancy. Actual: 9061.0, Expected: 36.94"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2015,"OPM discrepancy. Actual: 1367.0, Expected: 32.49"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2016,"OPM discrepancy. Actual: 1986.0, Expected: 32.25"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2017,"OPM discrepancy. Actual: 2867.0, Expected: 32.60"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2018,"OPM discrepancy. Actual: 3935.0, Expected: 32.28"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2019,"OPM discrepancy. Actual: 6310.0, Expected: 29.50"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2020,"OPM discrepancy. Actual: 7608.0, Expected: 34.73"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2021,"OPM discrepancy. Actual: 6314.0, Expected: 40.64"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2022,"OPM discrepancy. Actual: 9906.0, Expected: 37.55"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2023,"OPM discrepancy. Actual: 16018.0, Expected: 30.65"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-Mar 2024,"OPM discrepancy. Actual: 19987.0, Expected: 29.29"
+DQ-11,WARNING,profitandloss.xlsx,BAJFINANCE-TTM,"OPM discrepancy. Actual: 21417.0, Expected: 30.42"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2013,"OPM discrepancy. Actual: 1006.0, Expected: 30.05"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2014,"OPM discrepancy. Actual: 809.0, Expected: 29.78"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2015,"OPM discrepancy. Actual: 902.0, Expected: 29.98"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2016,"OPM discrepancy. Actual: -11700.0, Expected: 55.44"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2017,"OPM discrepancy. Actual: -4372.0, Expected: 43.28"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2018,"OPM discrepancy. Actual: -9197.0, Expected: 56.65"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2019,"OPM discrepancy. Actual: -5414.0, Expected: 48.79"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2020,"OPM discrepancy. Actual: -11728.0, Expected: 51.44"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2021,"OPM discrepancy. Actual: -6957.0, Expected: 51.23"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2022,"OPM discrepancy. Actual: -2948.0, Expected: 51.12"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2023,"OPM discrepancy. Actual: 6329.0, Expected: 40.45"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2024,"OPM discrepancy. Actual: 4102.0, Expected: 37.49"
+DQ-11,WARNING,profitandloss.xlsx,BANKBARODA-TTM,"OPM discrepancy. Actual: 3526.0, Expected: 37.42"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2013,"OPM discrepancy. Actual: 655.0, Expected: 21.18"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2014,"OPM discrepancy. Actual: -672.0, Expected: 24.35"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2015,"OPM discrepancy. Actual: -621.0, Expected: 23.51"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2016,"OPM discrepancy. Actual: -8008.0, Expected: 40.38"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2017,"OPM discrepancy. Actual: -5775.0, Expected: 37.85"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2018,"OPM discrepancy. Actual: -13350.0, Expected: 61.87"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2019,"OPM discrepancy. Actual: -11590.0, Expected: 56.73"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2020,"OPM discrepancy. Actual: -12867.0, Expected: 53.88"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2021,"OPM discrepancy. Actual: -18367.0, Expected: 61.83"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2022,"OPM discrepancy. Actual: -13657.0, Expected: 58.39"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2023,"OPM discrepancy. Actual: -9877.0, Expected: 49.80"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-Mar 2024,"OPM discrepancy. Actual: -7745.0, Expected: 41.75"
+DQ-11,WARNING,profitandloss.xlsx,CANBK-TTM,"OPM discrepancy. Actual: -8985.0, Expected: 40.23"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2013,"OPM discrepancy. Actual: 472.0, Expected: 26.77"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2014,"OPM discrepancy. Actual: 578.0, Expected: 28.42"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2015,"OPM discrepancy. Actual: 696.0, Expected: 28.56"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2016,"OPM discrepancy. Actual: 899.0, Expected: 30.04"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2017,"OPM discrepancy. Actual: 1143.0, Expected: 28.16"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2018,"OPM discrepancy. Actual: 1451.0, Expected: 26.10"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2019,"OPM discrepancy. Actual: 1888.0, Expected: 22.96"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2020,"OPM discrepancy. Actual: 1699.0, Expected: 27.79"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2021,"OPM discrepancy. Actual: 2094.0, Expected: 30.40"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2022,"OPM discrepancy. Actual: 2924.0, Expected: 28.83"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2023,"OPM discrepancy. Actual: 3515.0, Expected: 28.10"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-Mar 2024,"OPM discrepancy. Actual: 4548.0, Expected: 28.10"
+DQ-11,WARNING,profitandloss.xlsx,CHOLAFIN-TTM,"OPM discrepancy. Actual: 5175.0, Expected: 28.67"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2013,"OPM discrepancy. Actual: 2214.0, Expected: 73.26"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2014,"OPM discrepancy. Actual: 2147.0, Expected: 78.90"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2015,"OPM discrepancy. Actual: 2163.0, Expected: 80.94"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2016,"OPM discrepancy. Actual: 2480.0, Expected: 82.02"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2017,"OPM discrepancy. Actual: 2496.0, Expected: 82.66"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2018,"OPM discrepancy. Actual: 2826.0, Expected: 81.35"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2019,"OPM discrepancy. Actual: 3097.0, Expected: 81.07"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2020,"OPM discrepancy. Actual: 3206.0, Expected: 81.29"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2021,"OPM discrepancy. Actual: 4252.0, Expected: 77.80"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2022,"OPM discrepancy. Actual: 4553.0, Expected: 79.08"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2023,"OPM discrepancy. Actual: 5027.0, Expected: 77.91"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-Mar 2024,"OPM discrepancy. Actual: 6291.0, Expected: 75.59"
+DQ-11,WARNING,profitandloss.xlsx,CIPLA-TTM,"OPM discrepancy. Actual: 6906.0, Expected: 74.40"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2013,"OPM discrepancy. Actual: 18087.0, Expected: 73.52"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2014,"OPM discrepancy. Actual: 17766.0, Expected: 74.84"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2015,"OPM discrepancy. Actual: 17343.0, Expected: 76.60"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2016,"OPM discrepancy. Actual: 18714.0, Expected: 75.96"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2017,"OPM discrepancy. Actual: 12448.0, Expected: 84.07"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2018,"OPM discrepancy. Actual: 9288.0, Expected: 89.10"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2019,"OPM discrepancy. Actual: 25007.0, Expected: 74.89"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2020,"OPM discrepancy. Actual: 21581.0, Expected: 77.54"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2021,"OPM discrepancy. Actual: 18628.0, Expected: 79.31"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2022,"OPM discrepancy. Actual: 24721.0, Expected: 77.47"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2023,"OPM discrepancy. Actual: 44232.0, Expected: 68.01"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-Mar 2024,"OPM discrepancy. Actual: 47971.0, Expected: 66.29"
+DQ-11,WARNING,profitandloss.xlsx,COALINDIA-TTM,"OPM discrepancy. Actual: 46610.0, Expected: 66.78"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2013,"OPM discrepancy. Actual: 3534.0, Expected: 35.22"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2014,"OPM discrepancy. Actual: 5602.0, Expected: 31.74"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2015,"OPM discrepancy. Actual: 7214.0, Expected: 31.90"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2016,"OPM discrepancy. Actual: 9037.0, Expected: 31.75"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2017,"OPM discrepancy. Actual: 11374.0, Expected: 32.56"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2018,"OPM discrepancy. Actual: 13374.0, Expected: 34.63"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2019,"OPM discrepancy. Actual: 16592.0, Expected: 33.15"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2020,"OPM discrepancy. Actual: 14593.0, Expected: 37.20"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2021,"OPM discrepancy. Actual: 16848.0, Expected: 40.81"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2022,"OPM discrepancy. Actual: 20795.0, Expected: 41.61"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2023,"OPM discrepancy. Actual: 29932.0, Expected: 36.92"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-Mar 2024,"OPM discrepancy. Actual: -44685.0, Expected: 61.41"
+DQ-11,WARNING,profitandloss.xlsx,HDFCBANK-TTM,"OPM discrepancy. Actual: -57587.0, Expected: 62.61"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2013,"OPM discrepancy. Actual: 525.0, Expected: 96.27"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2014,"OPM discrepancy. Actual: 605.0, Expected: 96.48"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2015,"OPM discrepancy. Actual: 874.0, Expected: 96.79"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2016,"OPM discrepancy. Actual: 953.0, Expected: 94.74"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2017,"OPM discrepancy. Actual: 972.0, Expected: 96.83"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2018,"OPM discrepancy. Actual: 1074.0, Expected: 96.67"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2019,"OPM discrepancy. Actual: 1215.0, Expected: 96.87"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2020,"OPM discrepancy. Actual: 1141.0, Expected: 96.12"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2021,"OPM discrepancy. Actual: 1235.0, Expected: 98.27"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2022,"OPM discrepancy. Actual: 778.0, Expected: 98.84"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2023,"OPM discrepancy. Actual: 80.0, Expected: 99.89"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2024,"OPM discrepancy. Actual: 531.0, Expected: 99.48"
+DQ-11,WARNING,profitandloss.xlsx,HDFCLIFE-TTM,"OPM discrepancy. Actual: 725.0, Expected: 99.28"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2014,"OPM discrepancy. Actual: 3553.0, Expected: 85.94"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2015,"OPM discrepancy. Actual: 3520.0, Expected: 87.22"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2016,"OPM discrepancy. Actual: 4424.0, Expected: 84.45"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2017,"OPM discrepancy. Actual: 4585.0, Expected: 83.97"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2018,"OPM discrepancy. Actual: 5334.0, Expected: 83.57"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2019,"OPM discrepancy. Actual: 5025.0, Expected: 85.21"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2020,"OPM discrepancy. Actual: 4070.0, Expected: 86.09"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2021,"OPM discrepancy. Actual: 4058.0, Expected: 86.90"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2022,"OPM discrepancy. Actual: 3256.0, Expected: 88.98"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2023,"OPM discrepancy. Actual: 4099.0, Expected: 88.00"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-Mar 2024,"OPM discrepancy. Actual: 5235.0, Expected: 86.15"
+DQ-11,WARNING,profitandloss.xlsx,HEROMOTOCO-TTM,"OPM discrepancy. Actual: 5561.0, Expected: 86.13"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2013,"OPM discrepancy. Actual: 7699.0, Expected: 90.40"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2014,"OPM discrepancy. Actual: 8024.0, Expected: 90.85"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2015,"OPM discrepancy. Actual: 8844.0, Expected: 91.52"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2016,"OPM discrepancy. Actual: 7778.0, Expected: 92.12"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2017,"OPM discrepancy. Actual: 12317.0, Expected: 87.71"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2018,"OPM discrepancy. Actual: 13695.0, Expected: 88.11"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2019,"OPM discrepancy. Actual: 15511.0, Expected: 88.12"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2020,"OPM discrepancy. Actual: 14306.0, Expected: 87.89"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2021,"OPM discrepancy. Actual: 17559.0, Expected: 86.70"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2022,"OPM discrepancy. Actual: 28347.0, Expected: 85.47"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2023,"OPM discrepancy. Actual: 22666.0, Expected: 89.85"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-Mar 2024,"OPM discrepancy. Actual: 23872.0, Expected: 88.95"
+DQ-11,WARNING,profitandloss.xlsx,HINDALCO-TTM,"OPM discrepancy. Actual: 27931.0, Expected: 87.53"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2013,"OPM discrepancy. Actual: 4220.0, Expected: 84.37"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2014,"OPM discrepancy. Actual: 4759.0, Expected: 83.72"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2015,"OPM discrepancy. Actual: 5412.0, Expected: 83.07"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2016,"OPM discrepancy. Actual: 5910.0, Expected: 81.64"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2017,"OPM discrepancy. Actual: 6328.0, Expected: 80.92"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2018,"OPM discrepancy. Actual: 7499.0, Expected: 78.90"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2019,"OPM discrepancy. Actual: 8880.0, Expected: 77.41"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2020,"OPM discrepancy. Actual: 9861.0, Expected: 75.21"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2021,"OPM discrepancy. Actual: 11626.0, Expected: 75.28"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2022,"OPM discrepancy. Actual: 12857.0, Expected: 75.49"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2023,"OPM discrepancy. Actual: 14147.0, Expected: 76.65"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-Mar 2024,"OPM discrepancy. Actual: 14659.0, Expected: 76.32"
+DQ-11,WARNING,profitandloss.xlsx,HINDUNILVR-TTM,"OPM discrepancy. Actual: 14759.0, Expected: 76.45"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2013,"OPM discrepancy. Actual: -15085.0, Expected: 70.59"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2014,"OPM discrepancy. Actual: -13084.0, Expected: 66.40"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2015,"OPM discrepancy. Actual: -16120.0, Expected: 70.53"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2016,"OPM discrepancy. Actual: -26955.0, Expected: 88.12"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2017,"OPM discrepancy. Actual: -37737.0, Expected: 104.76"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2018,"OPM discrepancy. Actual: -44906.0, Expected: 117.12"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2019,"OPM discrepancy. Actual: -50971.0, Expected: 116.38"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2020,"OPM discrepancy. Actual: -45190.0, Expected: 100.62"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2021,"OPM discrepancy. Actual: -44805.0, Expected: 102.41"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2022,"OPM discrepancy. Actual: -26558.0, Expected: 84.69"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2023,"OPM discrepancy. Actual: -17341.0, Expected: 72.57"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-Mar 2024,"OPM discrepancy. Actual: -14152.0, Expected: 62.41"
+DQ-11,WARNING,profitandloss.xlsx,ICICIBANK-TTM,"OPM discrepancy. Actual: -31575.0, Expected: 69.63"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2013,"OPM discrepancy. Actual: -178.0, Expected: 104.46"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2014,"OPM discrepancy. Actual: -225.0, Expected: 105.19"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2015,"OPM discrepancy. Actual: -221.0, Expected: 105.24"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2016,"OPM discrepancy. Actual: 764.0, Expected: 87.34"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2017,"OPM discrepancy. Actual: 919.0, Expected: 87.78"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2018,"OPM discrepancy. Actual: -262.0, Expected: 103.79"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2019,"OPM discrepancy. Actual: 1669.0, Expected: 85.05"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2020,"OPM discrepancy. Actual: 1772.0, Expected: 84.61"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2021,"OPM discrepancy. Actual: 2072.0, Expected: 82.97"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2022,"OPM discrepancy. Actual: 1016.0, Expected: 93.66"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2023,"OPM discrepancy. Actual: 1264.0, Expected: 92.93"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-Mar 2024,"OPM discrepancy. Actual: 2577.0, Expected: 87.42"
+DQ-11,WARNING,profitandloss.xlsx,ICICIGI-TTM,"OPM discrepancy. Actual: 3363.0, Expected: 85.57"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2013,"OPM discrepancy. Actual: 745.0, Expected: 96.28"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2014,"OPM discrepancy. Actual: 1504.0, Expected: 93.13"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2015,"OPM discrepancy. Actual: 1655.0, Expected: 95.20"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2016,"OPM discrepancy. Actual: 1842.0, Expected: 91.17"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2017,"OPM discrepancy. Actual: 1806.0, Expected: 95.22"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2018,"OPM discrepancy. Actual: 1771.0, Expected: 95.44"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2019,"OPM discrepancy. Actual: 541.0, Expected: 98.70"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2020,"OPM discrepancy. Actual: -319.0, Expected: 101.52"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2021,"OPM discrepancy. Actual: -390.0, Expected: 100.47"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2022,"OPM discrepancy. Actual: -2163.0, Expected: 103.40"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2023,"OPM discrepancy. Actual: -1757.0, Expected: 103.48"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-Mar 2024,"OPM discrepancy. Actual: -1829.0, Expected: 102.03"
+DQ-11,WARNING,profitandloss.xlsx,ICICIPRULI-TTM,"OPM discrepancy. Actual: 321.0, Expected: 99.59"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2013,"OPM discrepancy. Actual: 286.0, Expected: 27.88"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2014,"OPM discrepancy. Actual: 335.0, Expected: 30.95"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2015,"OPM discrepancy. Actual: 288.0, Expected: 32.33"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2016,"OPM discrepancy. Actual: 329.0, Expected: 35.28"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2017,"OPM discrepancy. Actual: 379.0, Expected: 39.46"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2018,"OPM discrepancy. Actual: 942.0, Expected: 37.93"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2019,"OPM discrepancy. Actual: -437.0, Expected: 41.70"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2020,"OPM discrepancy. Actual: -553.0, Expected: 43.81"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2021,"OPM discrepancy. Actual: -2469.0, Expected: 55.16"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2022,"OPM discrepancy. Actual: -839.0, Expected: 51.39"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2023,"OPM discrepancy. Actual: 2067.0, Expected: 42.69"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-Mar 2024,"OPM discrepancy. Actual: 2978.0, Expected: 38.55"
+DQ-11,WARNING,profitandloss.xlsx,INDUSINDBK-TTM,"OPM discrepancy. Actual: 1323.0, Expected: 41.03"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2013,"OPM discrepancy. Actual: -1789.0, Expected: 60.92"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2014,"OPM discrepancy. Actual: -1379.0, Expected: 58.84"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2015,"OPM discrepancy. Actual: -3366.0, Expected: 72.96"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2016,"OPM discrepancy. Actual: -2263.0, Expected: 56.57"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2017,"OPM discrepancy. Actual: -3965.0, Expected: 66.44"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2018,"OPM discrepancy. Actual: -4141.0, Expected: 66.87"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2019,"OPM discrepancy. Actual: -5114.0, Expected: 66.23"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2020,"OPM discrepancy. Actual: -5005.0, Expected: 67.45"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2021,"OPM discrepancy. Actual: -9958.0, Expected: 90.83"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2022,"OPM discrepancy. Actual: -8512.0, Expected: 90.98"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2023,"OPM discrepancy. Actual: -5746.0, Expected: 79.44"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-Mar 2024,"OPM discrepancy. Actual: -13382.0, Expected: 83.67"
+DQ-11,WARNING,profitandloss.xlsx,KOTAKBANK-TTM,"OPM discrepancy. Actual: -14146.0, Expected: 79.42"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2013,"OPM discrepancy. Actual: 855.0, Expected: 90.71"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2014,"OPM discrepancy. Actual: 433.0, Expected: 96.11"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2015,"OPM discrepancy. Actual: 1904.0, Expected: 86.33"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2016,"OPM discrepancy. Actual: 3164.0, Expected: 80.40"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2017,"OPM discrepancy. Actual: 2219.0, Expected: 88.06"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2018,"OPM discrepancy. Actual: 3030.0, Expected: 86.84"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2019,"OPM discrepancy. Actual: -151.0, Expected: 100.53"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2020,"OPM discrepancy. Actual: 4069.0, Expected: 88.62"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2021,"OPM discrepancy. Actual: 2.0, Expected: 99.98"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2022,"OPM discrepancy. Actual: 558.0, Expected: 97.85"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2023,"OPM discrepancy. Actual: 6521.0, Expected: 88.02"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-Mar 2024,"OPM discrepancy. Actual: 16331.0, Expected: 76.30"
+DQ-11,WARNING,profitandloss.xlsx,INDIGO-TTM,"OPM discrepancy. Actual: 15908.0, Expected: 79.20"
+DQ-14,WARNING,profitandloss.xlsx,ADANIENT-Mar 2014,"Tax percent out of bounds [0, 50]: -64.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIGREEN-Mar 2017,"Tax percent out of bounds [0, 50]: -75.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIGREEN-Mar 2018,"Tax percent out of bounds [0, 50]: -35.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIGREEN-Mar 2019,"Tax percent out of bounds [0, 50]: -19.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIPOWER-Mar 2014,"Tax percent out of bounds [0, 50]: -79.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIPOWER-Mar 2016,"Tax percent out of bounds [0, 50]: -47.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIPOWER-Mar 2017,"Tax percent out of bounds [0, 50]: -1.0"
+DQ-14,WARNING,profitandloss.xlsx,ADANIPOWER-Mar 2023,"Tax percent out of bounds [0, 50]: -40.0"
+DQ-14,WARNING,profitandloss.xlsx,AMBUJACEM-Dec 2018,"Tax percent out of bounds [0, 50]: -2.0"
+DQ-14,WARNING,profitandloss.xlsx,APOLLOHOSP-Mar 2018,"Tax percent out of bounds [0, 50]: 65.0"
+DQ-14,WARNING,profitandloss.xlsx,AXISBANK-Mar 2018,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,AXISBANK-Mar 2020,"Tax percent out of bounds [0, 50]: 67.0"
+DQ-14,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2016,"Tax percent out of bounds [0, 50]: -19.0"
+DQ-14,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2018,"Tax percent out of bounds [0, 50]: -9.0"
+DQ-14,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2020,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,BANKBARODA-Mar 2021,"Tax percent out of bounds [0, 50]: 77.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2013,"Tax percent out of bounds [0, 50]: 53.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2014,"Tax percent out of bounds [0, 50]: 62.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2015,"Tax percent out of bounds [0, 50]: 52.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2019,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2020,"Tax percent out of bounds [0, 50]: -28.0"
+DQ-14,WARNING,profitandloss.xlsx,BHARTIARTL-Mar 2021,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,BHEL-Mar 2016,"Tax percent out of bounds [0, 50]: -39.0"
+DQ-14,WARNING,profitandloss.xlsx,BHEL-Mar 2018,"Tax percent out of bounds [0, 50]: 64.0"
+DQ-14,WARNING,profitandloss.xlsx,BHEL-Mar 2020,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,BHEL-Mar 2021,"Tax percent out of bounds [0, 50]: -25.0"
+DQ-14,WARNING,profitandloss.xlsx,BHEL-Mar 2024,"Tax percent out of bounds [0, 50]: -16.0"
+DQ-14,WARNING,profitandloss.xlsx,CANBK-Mar 2016,"Tax percent out of bounds [0, 50]: -13.0"
+DQ-14,WARNING,profitandloss.xlsx,CANBK-Mar 2018,"Tax percent out of bounds [0, 50]: -36.0"
+DQ-14,WARNING,profitandloss.xlsx,CANBK-Mar 2019,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,DLF-Mar 2014,"Tax percent out of bounds [0, 50]: -16.0"
+DQ-14,WARNING,profitandloss.xlsx,DLF-Mar 2016,"Tax percent out of bounds [0, 50]: 55.0"
+DQ-14,WARNING,profitandloss.xlsx,DLF-Mar 2020,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,DRREDDY-Mar 2020,"Tax percent out of bounds [0, 50]: -7.0"
+DQ-14,WARNING,profitandloss.xlsx,GODREJCP-Mar 2019,"Tax percent out of bounds [0, 50]: -12.0"
+DQ-14,WARNING,profitandloss.xlsx,GODREJCP-Mar 2024,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,GRASIM-Mar 2020,"Tax percent out of bounds [0, 50]: -1.0"
+DQ-14,WARNING,profitandloss.xlsx,HDFCLIFE-Mar 2024,"Tax percent out of bounds [0, 50]: -61.0"
+DQ-14,WARNING,profitandloss.xlsx,HINDALCO-Mar 2015,"Tax percent out of bounds [0, 50]: 75.0"
+DQ-14,WARNING,profitandloss.xlsx,HINDALCO-Mar 2016,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,IOC-Mar 2020,"Tax percent out of bounds [0, 50]: -74.0"
+DQ-14,WARNING,profitandloss.xlsx,IRFC-Mar 2013,"Tax percent out of bounds [0, 50]: 64.0"
+DQ-14,WARNING,profitandloss.xlsx,IRFC-Mar 2014,"Tax percent out of bounds [0, 50]: 55.0"
+DQ-14,WARNING,profitandloss.xlsx,IRFC-Mar 2015,"Tax percent out of bounds [0, 50]: 60.0"
+DQ-14,WARNING,profitandloss.xlsx,IRFC-Mar 2016,"Tax percent out of bounds [0, 50]: 56.0"
+DQ-14,WARNING,profitandloss.xlsx,IRFC-Mar 2017,"Tax percent out of bounds [0, 50]: 56.0"
+DQ-14,WARNING,profitandloss.xlsx,JINDALSTEL-Mar 2015,"Tax percent out of bounds [0, 50]: -6.0"
+DQ-14,WARNING,profitandloss.xlsx,JINDALSTEL-Mar 2016,"Tax percent out of bounds [0, 50]: -22.0"
+DQ-14,WARNING,profitandloss.xlsx,JINDALSTEL-Mar 2017,"Tax percent out of bounds [0, 50]: -17.0"
+DQ-14,WARNING,profitandloss.xlsx,JINDALSTEL-Mar 2018,"Tax percent out of bounds [0, 50]: -13.0"
+DQ-14,WARNING,profitandloss.xlsx,JINDALSTEL-Mar 2019,"Tax percent out of bounds [0, 50]: -14.0"
+DQ-14,WARNING,profitandloss.xlsx,JSWENERGY-Mar 2018,"Tax percent out of bounds [0, 50]: 75.0"
+DQ-14,WARNING,profitandloss.xlsx,JSWSTEEL-Mar 2014,"Tax percent out of bounds [0, 50]: 70.0"
+DQ-14,WARNING,profitandloss.xlsx,JSWSTEEL-Mar 2016,"Tax percent out of bounds [0, 50]: -80.0"
+DQ-14,WARNING,profitandloss.xlsx,JSWSTEEL-Mar 2020,"Tax percent out of bounds [0, 50]: -30.0"
+DQ-14,WARNING,profitandloss.xlsx,LICI-Mar 2019,"Tax percent out of bounds [0, 50]: 68.0"
+DQ-14,WARNING,profitandloss.xlsx,LICI-Mar 2020,"Tax percent out of bounds [0, 50]: 80.0"
+DQ-14,WARNING,profitandloss.xlsx,LICI-Mar 2021,"Tax percent out of bounds [0, 50]: 76.0"
+DQ-14,WARNING,profitandloss.xlsx,LICI-Mar 2022,"Tax percent out of bounds [0, 50]: 66.0"
+DQ-14,WARNING,profitandloss.xlsx,LODHA-Mar 2021,"Tax percent out of bounds [0, 50]: -44.0"
+DQ-14,WARNING,profitandloss.xlsx,LODHA-Mar 2023,"Tax percent out of bounds [0, 50]: -8.0"
+DQ-14,WARNING,profitandloss.xlsx,M&M-Mar 2020,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,M&M-Mar 2021,"Tax percent out of bounds [0, 50]: 52.0"
+DQ-14,WARNING,profitandloss.xlsx,MOTHERSON-Mar 2020,"Tax percent out of bounds [0, 50]: -5.0"
+DQ-14,WARNING,profitandloss.xlsx,NAUKRI-Mar 2015,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,NAUKRI-Mar 2017,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,NAUKRI-Mar 2020,"Tax percent out of bounds [0, 50]: 95.0"
+DQ-14,WARNING,profitandloss.xlsx,NAUKRI-Mar 2023,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,NHPC-Mar 2020,"Tax percent out of bounds [0, 50]: -2.0"
+DQ-14,WARNING,profitandloss.xlsx,NHPC-Mar 2022,"Tax percent out of bounds [0, 50]: -17.0"
+DQ-14,WARNING,profitandloss.xlsx,NTPC-Mar 2016,"Tax percent out of bounds [0, 50]: -2.0"
+DQ-14,WARNING,profitandloss.xlsx,NTPC-Mar 2019,"Tax percent out of bounds [0, 50]: -25.0"
+DQ-14,WARNING,profitandloss.xlsx,PFC-Mar 2017,"Tax percent out of bounds [0, 50]: 58.0"
+DQ-14,WARNING,profitandloss.xlsx,PNB-Mar 2016,"Tax percent out of bounds [0, 50]: -31.0"
+DQ-14,WARNING,profitandloss.xlsx,PNB-Mar 2018,"Tax percent out of bounds [0, 50]: -37.0"
+DQ-14,WARNING,profitandloss.xlsx,PNB-Mar 2019,"Tax percent out of bounds [0, 50]: -35.0"
+DQ-14,WARNING,profitandloss.xlsx,PNB-Mar 2020,"Tax percent out of bounds [0, 50]: 56.0"
+DQ-14,WARNING,profitandloss.xlsx,POWERGRID-Mar 2019,"Tax percent out of bounds [0, 50]: -10.0"
+DQ-14,WARNING,profitandloss.xlsx,SBIN-Mar 2017,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,SBIN-Mar 2018,"Tax percent out of bounds [0, 50]: -66.0"
+DQ-14,WARNING,profitandloss.xlsx,SHREECEM-Jun 2015,"Tax percent out of bounds [0, 50]: -6.0"
+DQ-14,WARNING,profitandloss.xlsx,TATACONSUM-Mar 2016,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAMOTORS-Mar 2019,"Tax percent out of bounds [0, 50]: -8.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAMOTORS-Mar 2022,"Tax percent out of bounds [0, 50]: 60.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAMOTORS-Mar 2024,"Tax percent out of bounds [0, 50]: -14.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAPOWER-Mar 2013,"Tax percent out of bounds [0, 50]: 92.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAPOWER-Mar 2014,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAPOWER-Mar 2015,"Tax percent out of bounds [0, 50]: 72.0"
+DQ-14,WARNING,profitandloss.xlsx,TATAPOWER-Mar 2016,"Tax percent out of bounds [0, 50]: 53.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2013,"Tax percent out of bounds [0, 50]: 78.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2015,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2016,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2017,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2020,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2023,"Tax percent out of bounds [0, 50]: 56.0"
+DQ-14,WARNING,profitandloss.xlsx,TATASTEEL-Mar 2024,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TRENT-Mar 2013,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TRENT-Mar 2014,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,TRENT-Mar 2021,"Tax percent out of bounds [0, 50]: -12.0"
+DQ-14,WARNING,profitandloss.xlsx,TRENT-Mar 2022,"Tax percent out of bounds [0, 50]: 69.0"
+DQ-14,WARNING,profitandloss.xlsx,ULTRACEMCO-Mar 2020,"Tax percent out of bounds [0, 50]: -11.0"
+DQ-14,WARNING,profitandloss.xlsx,UNIONBANK-Mar 2017,"Tax percent out of bounds [0, 50]: -58.0"
+DQ-14,WARNING,profitandloss.xlsx,UNIONBANK-Mar 2018,"Tax percent out of bounds [0, 50]: -21.0"
+DQ-14,WARNING,profitandloss.xlsx,UNIONBANK-Mar 2019,"Tax percent out of bounds [0, 50]: -25.0"
+DQ-14,WARNING,profitandloss.xlsx,UNIONBANK-Mar 2020,"Tax percent out of bounds [0, 50]: -27.0"
+DQ-14,WARNING,profitandloss.xlsx,UNIONBANK-Mar 2021,"Tax percent out of bounds [0, 50]: -22.0"
+DQ-14,WARNING,profitandloss.xlsx,UNITDSPR-Mar 2013,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,UNITDSPR-Mar 2016,"Tax percent out of bounds [0, 50]: 61.0"
+DQ-14,WARNING,profitandloss.xlsx,VBL-Dec 2012,"Tax percent out of bounds [0, 50]: -20.0"
+DQ-14,WARNING,profitandloss.xlsx,VBL-Dec 2013,"Tax percent out of bounds [0, 50]: -11.0"
+DQ-14,WARNING,profitandloss.xlsx,VBL-Dec 2014,"Tax percent out of bounds [0, 50]: 99.0"
+DQ-14,WARNING,profitandloss.xlsx,VEDL-Mar 2013,"Tax percent out of bounds [0, 50]: -25.0"
+DQ-14,WARNING,profitandloss.xlsx,VEDL-Mar 2014,"Tax percent out of bounds [0, 50]: -9.0"
+DQ-14,WARNING,profitandloss.xlsx,VEDL-Mar 2016,"Tax percent out of bounds [0, 50]: -37.0"
+DQ-14,WARNING,profitandloss.xlsx,VEDL-Mar 2020,"Tax percent out of bounds [0, 50]: -43.0"
+DQ-14,WARNING,profitandloss.xlsx,VEDL-Mar 2024,"Tax percent out of bounds [0, 50]: 63.0"
+DQ-14,WARNING,profitandloss.xlsx,ZOMATO-Mar 2023,"Tax percent out of bounds [0, 50]: -4.0"
+DQ-14,WARNING,profitandloss.xlsx,ZOMATO-Mar 2024,"Tax percent out of bounds [0, 50]: -21.0"
+DQ-14,WARNING,profitandloss.xlsx,INDIGO-Mar 2019,"Tax percent out of bounds [0, 50]: -99.0"
+DQ-14,WARNING,profitandloss.xlsx,INDIGO-Mar 2020,"Tax percent out of bounds [0, 50]: -10.0"
+DQ-14,WARNING,profitandloss.xlsx,INDIGO-Mar 2024,"Tax percent out of bounds [0, 50]: -2.0"
+DQ-16,WARNING,cashflow.xlsx,TVSMOTOR-Mar 2022,"Net Cash Flow mismatch. Actual: 532.0, Calc: -128.0"

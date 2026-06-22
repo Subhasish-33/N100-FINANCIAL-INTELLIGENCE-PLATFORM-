@@ -29,3 +29,5 @@ reports/portfolio/*.pdf
 reports/radar_charts/*.png
 output/*
 !output/.gitkeep
+!output/load_audit.csv
+!output/validation_failures.csv
