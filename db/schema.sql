@@ -80,6 +80,9 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     days_payable REAL,
     cash_conversion_cycle REAL,
     working_capital_days REAL,
+    net_profit_margin REAL,
+    operating_profit_margin REAL,
+    roa_percentage REAL,
     PRIMARY KEY (ticker, year),
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );

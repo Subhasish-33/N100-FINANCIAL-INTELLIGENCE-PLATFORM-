@@ -19,6 +19,7 @@ env/
 
 # SQLite DB
 *.db
+*.sqlite
 *.db-journal
 *.db-wal
 
