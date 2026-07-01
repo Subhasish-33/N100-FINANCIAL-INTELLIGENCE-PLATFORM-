@@ -83,6 +83,13 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     net_profit_margin REAL,
     operating_profit_margin REAL,
     roa_percentage REAL,
+    debt_to_equity REAL,
+    high_leverage_flag BOOLEAN,
+    interest_coverage_ratio REAL,
+    icr_label TEXT,
+    icr_warning_flag BOOLEAN,
+    net_debt REAL,
+    asset_turnover REAL,
     PRIMARY KEY (ticker, year),
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );

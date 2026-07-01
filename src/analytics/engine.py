@@ -7,7 +7,14 @@ from src.analytics.ratios import (
     cross_check_opm,
     calculate_roe,
     calculate_roce,
-    calculate_roa
+    calculate_roa,
+    calculate_debt_to_equity,
+    evaluate_high_leverage,
+    calculate_icr,
+    get_icr_label,
+    evaluate_icr_warning,
+    calculate_net_debt,
+    calculate_asset_turnover
 )
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -63,7 +70,14 @@ def run_ratio_engine():
             operating_profit_margin = ?,
             roe_percentage = ?,
             roce_percentage = ?,
-            roa_percentage = ?
+            roa_percentage = ?,
+            debt_to_equity = ?,
+            high_leverage_flag = ?,
+            interest_coverage_ratio = ?,
+            icr_label = ?,
+            icr_warning_flag = ?,
+            net_debt = ?,
+            asset_turnover = ?
         WHERE ticker = ? AND year = ?
     """
     
@@ -94,14 +108,27 @@ def run_ratio_engine():
         roe = calculate_roe(net_profit, equity, reserves)
         roce = calculate_roce(ebit, equity, reserves, borrowings)
         
+        # Log ROCE evaluation for Financials
         if sector == "Financials" and roce is not None:
-            if roce < 10.0:  
+            if roce < 10.0:  # arbitrary sector benchmark example
                 logger.info(f"Financial company {ticker} missed sector ROCE benchmark with {roce:.2f}%")
         
         roa = calculate_roa(net_profit, total_assets)
+
+        # Day 09 Ratios
+        de = calculate_debt_to_equity(borrowings, equity, reserves)
+        high_leverage = evaluate_high_leverage(de, sector)
+        
+        icr = calculate_icr(op, other_income, interest)
+        icr_lbl = get_icr_label(icr)
+        icr_warn = evaluate_icr_warning(icr)
+        
+        net_debt_val = calculate_net_debt(borrowings, investments)
+        asset_to = calculate_asset_turnover(sales, total_assets)
         
         updates.append((
-            npm, computed_opm, roe, roce, roa,
+            npm, computed_opm, roe, roce, roa, de, high_leverage,
+            icr, icr_lbl, icr_warn, net_debt_val, asset_to,
             ticker, year
         ))
 

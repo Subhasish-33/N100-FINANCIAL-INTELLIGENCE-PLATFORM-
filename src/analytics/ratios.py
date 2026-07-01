@@ -44,3 +44,40 @@ def calculate_roa(net_profit: Optional[float], total_assets: Optional[float]) ->
     return (net_profit / total_assets) * 100
 
 
+# Day 09 - Leverage & Efficiency Ratios
+
+def calculate_debt_to_equity(borrowings: Optional[float], equity_capital: Optional[float], reserves: Optional[float]) -> Optional[float]:
+    if not borrowings or borrowings == 0:
+        return 0.0
+    denominator = (equity_capital or 0) + (reserves or 0)
+    if denominator <= 0:
+        return None
+    return borrowings / denominator
+
+def evaluate_high_leverage(debt_to_equity: Optional[float], broad_sector: str) -> bool:
+    if debt_to_equity is None:
+        return False
+    return debt_to_equity > 5 and broad_sector != 'Financials'
+
+def calculate_icr(operating_profit: Optional[float], other_income: Optional[float], interest: Optional[float]) -> Optional[float]:
+    if not interest or interest == 0:
+        return None
+    return ((operating_profit or 0) + (other_income or 0)) / interest
+
+def get_icr_label(icr: Optional[float]) -> Optional[str]:
+    if icr is None:
+        return "Debt Free"
+    return None
+
+def evaluate_icr_warning(icr: Optional[float]) -> bool:
+    if icr is not None and icr < 1.5:
+        return True
+    return False
+
+def calculate_net_debt(borrowings: Optional[float], investments: Optional[float]) -> float:
+    return (borrowings or 0) - (investments or 0)
+
+def calculate_asset_turnover(sales: Optional[float], total_assets: Optional[float]) -> Optional[float]:
+    if not total_assets or total_assets == 0 or sales is None:
+        return None
+    return sales / total_assets
