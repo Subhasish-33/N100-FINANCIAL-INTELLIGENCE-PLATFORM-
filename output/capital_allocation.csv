@@ -1,0 +1,31 @@
+company_id,year,cfo_sign,cfi_sign,cff_sign,pattern_label
+COMP_001,2021,+,+,+,Cash Accumulator
+COMP_001,2022,+,-,-,Reinvestor
+COMP_001,2023,-,-,+,Growth Funded by Debt
+COMP_002,2021,-,-,+,Growth Funded by Debt
+COMP_002,2022,-,+,-,Unknown
+COMP_002,2023,+,-,-,Reinvestor
+COMP_003,2021,+,+,+,Cash Accumulator
+COMP_003,2022,+,-,-,Reinvestor
+COMP_003,2023,+,+,+,Cash Accumulator
+COMP_004,2021,-,+,-,Unknown
+COMP_004,2022,+,-,+,Mixed
+COMP_004,2023,-,+,-,Unknown
+COMP_005,2021,-,-,-,Pre-Revenue
+COMP_005,2022,+,+,+,Cash Accumulator
+COMP_005,2023,+,+,-,Liquidating Assets
+COMP_006,2021,+,-,+,Mixed
+COMP_006,2022,+,+,-,Liquidating Assets
+COMP_006,2023,-,+,+,Distress Signal
+COMP_007,2021,-,+,-,Unknown
+COMP_007,2022,+,+,-,Liquidating Assets
+COMP_007,2023,-,-,+,Growth Funded by Debt
+COMP_008,2021,-,-,-,Pre-Revenue
+COMP_008,2022,-,+,-,Unknown
+COMP_008,2023,+,+,+,Cash Accumulator
+COMP_009,2021,-,+,+,Distress Signal
+COMP_009,2022,-,+,+,Distress Signal
+COMP_009,2023,+,+,+,Cash Accumulator
+COMP_010,2021,-,+,+,Distress Signal
+COMP_010,2022,+,+,-,Liquidating Assets
+COMP_010,2023,-,+,-,Unknown
