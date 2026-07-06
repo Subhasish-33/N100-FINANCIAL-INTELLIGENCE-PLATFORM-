@@ -90,6 +90,10 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     icr_warning_flag BOOLEAN,
     net_debt REAL,
     asset_turnover REAL,
+    free_cash_flow REAL,
+    capex_intensity REAL,
+    capex_intensity_label TEXT,
+    fcf_conversion_rate REAL,
     PRIMARY KEY (ticker, year),
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );
@@ -161,6 +165,7 @@ CREATE TABLE IF NOT EXISTS analysis (
     eps_cagr_5yr_flag TEXT,
     eps_cagr_10yr REAL,
     eps_cagr_10yr_flag TEXT,
+    cfo_quality_score_5yr_avg TEXT,
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );
 
