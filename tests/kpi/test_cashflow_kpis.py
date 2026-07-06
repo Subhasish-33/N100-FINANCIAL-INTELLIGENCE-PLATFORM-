@@ -1,5 +1,5 @@
 import pytest
-from src.analytics.cash_flow import (
+from src.analytics.cashflow_kpis import (
     compute_fcf,
     compute_cfo_quality_score,
     compute_capex_intensity,

@@ -4,7 +4,7 @@ import sqlite3
 import logging
 from pathlib import Path
 from collections import defaultdict
-from src.analytics.cash_flow import (
+from src.analytics.cashflow_kpis import (
     compute_fcf,
     compute_cfo_quality_score,
     compute_capex_intensity,
@@ -32,15 +32,16 @@ def generate_capital_allocation_report(output_path: str = "output/capital_alloca
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
-    # Query joined cash_flow and profit_and_loss
+    # Query all company-years from financial_ratios and LEFT JOIN cash_flow and profit_and_loss
     query = """
         SELECT 
-            cf.ticker, cf.year, 
+            fr.ticker, fr.year, 
             cf.operating_activity, cf.investing_activity, cf.financing_activity,
             pl.net_profit, pl.sales, pl.operating_profit
-        FROM cash_flow cf
-        JOIN profit_and_loss pl ON cf.ticker = pl.ticker AND cf.year = pl.year
-        ORDER BY cf.ticker, cf.year ASC
+        FROM financial_ratios fr
+        LEFT JOIN cash_flow cf ON fr.ticker = cf.ticker AND fr.year = cf.year
+        LEFT JOIN profit_and_loss pl ON fr.ticker = pl.ticker AND fr.year = pl.year
+        ORDER BY fr.ticker, fr.year ASC
     """
     cursor.execute(query)
     rows = cursor.fetchall()
