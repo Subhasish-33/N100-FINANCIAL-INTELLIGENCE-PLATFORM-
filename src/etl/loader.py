@@ -273,10 +273,10 @@ def load_all_data():
         ['ticker', 'year']
     )
 
-    # Market Cap
+    # Market Data (Valuation)
     process_and_load(
-        supp_dir / "market_cap.xlsx", "market_cap",
-        ['ticker', 'year', 'market_cap'],
+        supp_dir / "market_cap.xlsx", "market_data",
+        ['ticker', 'year', 'market_cap_crore', 'enterprise_value_crore', 'pe_ratio', 'pb_ratio', 'ev_ebitda', 'dividend_yield_pct'],
         ['ticker', 'year']
     )
 

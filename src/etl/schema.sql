@@ -105,6 +105,7 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     dividend_payout_ratio_pct REAL,
     total_debt_cr REAL,
     cash_from_operations_cr REAL,
+    revenue_cagr_3yr REAL,
     revenue_cagr_5yr REAL,
     pat_cagr_5yr REAL,
     eps_cagr_5yr REAL,
@@ -113,11 +114,16 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );
 
--- 7. Market Cap
-CREATE TABLE IF NOT EXISTS market_cap (
+-- 7. Market Data (Valuation Metrics)
+CREATE TABLE IF NOT EXISTS market_data (
     ticker TEXT NOT NULL,
     year INTEGER NOT NULL,
-    market_cap REAL,
+    market_cap_crore REAL,
+    enterprise_value_crore REAL,
+    pe_ratio REAL,
+    pb_ratio REAL,
+    ev_ebitda REAL,
+    dividend_yield_pct REAL,
     PRIMARY KEY (ticker, year),
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );

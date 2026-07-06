@@ -166,8 +166,9 @@ def run_full_engine():
             total_debt_cr = borrowings
             cash_from_operations_cr = cfo
             
-            # Rolling 5-Year CAGR
+            # Rolling 5-Year & 3-Year CAGR
             rev_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr = None, None, None
+            rev_cagr_3yr = None
             if i >= 5:
                 start_record = records[i-5]
                 start_sales = start_record['pl'].get('sales')
@@ -181,6 +182,11 @@ def run_full_engine():
                 start_eps = start_record['pl'].get('eps')
                 if start_eps is not None and eps is not None:
                     eps_cagr_5yr, _ = compute_cagr(start_eps, eps, 5)
+            if i >= 3:
+                start_3 = records[i-3]
+                start_sales_3 = start_3['pl'].get('sales')
+                if start_sales_3 is not None and sales is not None:
+                    rev_cagr_3yr, _ = compute_cagr(start_sales_3, sales, 3)
                 
             # Composite Quality Score (5-yr avg CFO/PAT)
             comp_score = None
@@ -209,7 +215,7 @@ def run_full_engine():
                 ticker, year,
                 roce_percentage, debtor_days, inventory_days, days_payable, cash_conversion_cycle, working_capital_days, roa_percentage, high_leverage, icr_label, icr_warning_flag, net_debt, capex_intensity_label, fcf_conversion_rate,
                 npm, opm, roe, de, icr, asset_to, fcf, capex_cr, eps, bvps, div_payout_ratio, total_debt_cr, cash_from_operations_cr,
-                rev_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, comp_score
+                rev_cagr_3yr, rev_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, comp_score
             ))
             
     insert_sql = """
@@ -217,8 +223,8 @@ def run_full_engine():
             ticker, year,
             roce_percentage, debtor_days, inventory_days, days_payable, cash_conversion_cycle, working_capital_days, roa_percentage, high_leverage_flag, icr_label, icr_warning_flag, net_debt, capex_intensity_label, fcf_conversion_rate,
             net_profit_margin_pct, operating_profit_margin_pct, return_on_equity_pct, debt_to_equity, interest_coverage, asset_turnover, free_cash_flow_cr, capex_cr, earnings_per_share, book_value_per_share, dividend_payout_ratio_pct, total_debt_cr, cash_from_operations_cr,
-            revenue_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, composite_quality_score
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            revenue_cagr_3yr, revenue_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, composite_quality_score
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     """
     cursor.executemany(insert_sql, inserts)
     conn.commit()
