@@ -109,6 +109,8 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     revenue_cagr_5yr REAL,
     pat_cagr_5yr REAL,
     eps_cagr_5yr REAL,
+    fcf_cagr_5yr REAL,
+    cfo_pat_ratio REAL,
     composite_quality_score TEXT,
     PRIMARY KEY (ticker, year),
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE

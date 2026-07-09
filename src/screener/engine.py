@@ -10,6 +10,7 @@ from typing import Any
 
 import pandas as pd
 import yaml
+from openpyxl.styles import PatternFill, Font
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -37,13 +38,18 @@ def load_screener_universe(year: int = 2024) -> pd.DataFrame:
             s.sector_name,
             -- Financial Ratios
             fr.return_on_equity_pct,
-            fr.debt_to_equity,
+            fr.roce_percentage,
+            fr.net_profit_margin_pct,
+            fr.operating_profit_margin_pct,
             fr.free_cash_flow_cr,
+            fr.fcf_cagr_5yr,
+            fr.cash_from_operations_cr,
+            fr.cfo_pat_ratio,
             fr.revenue_cagr_5yr,
             fr.revenue_cagr_3yr,
             fr.pat_cagr_5yr,
             fr.eps_cagr_5yr,
-            fr.operating_profit_margin_pct,
+            fr.debt_to_equity,
             fr.interest_coverage,
             fr.icr_label,
             fr.asset_turnover,
@@ -143,6 +149,32 @@ def _filter_de_declining_yoy(df: pd.DataFrame, year: int) -> pd.DataFrame:
     return df[df["ticker"].isin(declining["ticker"])]
 
 
+EXPORT_COLUMNS = [
+    "ticker",
+    "company_name",
+    "sector_name",
+    "composite_quality_score",
+    "return_on_equity_pct",
+    "roce_percentage",
+    "net_profit_margin_pct",
+    "operating_profit_margin_pct",
+    "free_cash_flow_cr",
+    "fcf_cagr_5yr",
+    "cash_from_operations_cr",
+    "sales",
+    "net_profit",
+    "cfo_pat_ratio",
+    "revenue_cagr_5yr",
+    "revenue_cagr_3yr",
+    "pat_cagr_5yr",
+    "debt_to_equity",
+    "interest_coverage",
+    "pe_ratio",
+    "pb_ratio",
+    "dividend_yield_pct"
+]
+
+
 def run_screener(filters: dict[str, Any], year: int = 2024) -> pd.DataFrame:
     """
     Load the screener universe, apply filters, return a sorted DataFrame
@@ -150,15 +182,15 @@ def run_screener(filters: dict[str, Any], year: int = 2024) -> pd.DataFrame:
     """
     df = load_screener_universe(year)
     filtered = apply_filters(df, filters, year)
-    # Sort: High quality first, then by ROE desc
-    quality_order = {"High": 0, "Moderate": 1, "Low": 2}
+    
+    # Sort by numeric composite_quality_score desc, then by ROE desc
     filtered = filtered.copy()
-    filtered["_quality_sort"] = filtered["composite_quality_score"].map(quality_order).fillna(3)
+    filtered["composite_quality_score"] = pd.to_numeric(filtered["composite_quality_score"], errors="coerce").fillna(0.0)
     filtered = filtered.sort_values(
-        ["_quality_sort", "return_on_equity_pct"],
-        ascending=[True, False]
-    ).drop(columns=["_quality_sort"])
-    filtered = filtered.reset_index(drop=True)
+        ["composite_quality_score", "return_on_equity_pct"],
+        ascending=[False, False]
+    ).reset_index(drop=True)
+    
     logger.info(f"Screener returned {len(filtered)} companies")
     return filtered
 
@@ -185,18 +217,105 @@ def run_all_presets(year: int = 2024) -> dict[str, pd.DataFrame]:
 
 
 def generate_screener_output(year: int = 2024, output_path: str = "output/screener_output.xlsx") -> None:
-    """Generate screener_output.xlsx with one sheet per preset."""
+    """Generate screener_output.xlsx with one sheet per preset, styling cells based on thresholds."""
     results = run_all_presets(year)
     config = _load_config()
     presets_meta = config.get("presets", {})
+    metric_config = config.get("metrics", {})
 
     output_path = BASE_DIR / output_path
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
         for preset_name, df in results.items():
+            # Select and reorder columns for export
+            cols_to_export = [c for c in EXPORT_COLUMNS if c in df.columns]
+            df_export = df[cols_to_export].copy()
+
             sheet_label = presets_meta[preset_name]["label"][:31]  # Excel sheet name max 31 chars
-            df.to_excel(writer, sheet_name=sheet_label, index=False)
+            df_export.to_excel(writer, sheet_name=sheet_label, index=False)
+            
+            # Apply cell styling
+            sheet = writer.sheets[sheet_label]
+            preset = presets_meta[preset_name]
+            filters = preset.get("filters", {})
+            
+            # Build active filters mapping for this preset
+            active_cols = {}
+            for metric_key, threshold in filters.items():
+                if metric_key in metric_config:
+                    spec = metric_config[metric_key]
+                    col = spec["column"]
+                    direction = spec["direction"]
+                    financials_exempt = spec.get("financials_de_exempt", False)
+                    debt_free_inf = spec.get("debt_free_as_infinity", False)
+                    
+                    if col not in active_cols:
+                        active_cols[col] = []
+                    active_cols[col].append({
+                        "threshold": threshold,
+                        "direction": direction,
+                        "financials_exempt": financials_exempt,
+                        "debt_free_inf": debt_free_inf
+                    })
+            
+            # Define cell highlighting styles
+            green_fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+            green_font = Font(color="006100", bold=True)
+            red_fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
+            red_font = Font(color="9C0006")
+            
+            for col_idx, col_name in enumerate(cols_to_export, start=1):
+                if col_name in active_cols:
+                    for row_idx in range(2, sheet.max_row + 1):
+                        df_idx = row_idx - 2
+                        cell = sheet.cell(row=row_idx, column=col_idx)
+                        val = cell.value
+                        
+                        # Lookup sector and icr_label from source DataFrame df
+                        sector_val = df.loc[df_idx, "sector_name"] if "sector_name" in df.columns else None
+                        icr_label_val = df.loc[df_idx, "icr_label"] if "icr_label" in df.columns else None
+                        
+                        passed = True
+                        for f in active_cols[col_name]:
+                            threshold = f["threshold"]
+                            direction = f["direction"]
+                            financials_exempt = f["financials_exempt"]
+                            debt_free_inf = f["debt_free_inf"]
+                            
+                            # Check D/E sector exemption
+                            if financials_exempt and sector_val == "Financials":
+                                continue
+                            # Check ICR debt free label exemption
+                            if debt_free_inf and icr_label_val == "Debt Free":
+                                continue
+                                
+                            if val is None or pd.isna(val):
+                                passed = False
+                                break
+                            
+                            try:
+                                val_float = float(val)
+                                thresh_float = float(threshold)
+                                if direction == "min":
+                                    if val_float < thresh_float:
+                                        passed = False
+                                        break
+                                else: # max
+                                    if val_float > thresh_float:
+                                        passed = False
+                                        break
+                            except ValueError:
+                                passed = False
+                                break
+                                
+                        if passed:
+                            cell.fill = green_fill
+                            cell.font = green_font
+                        else:
+                            cell.fill = red_fill
+                            cell.font = red_font
+                            
             logger.info(f"  Sheet '{sheet_label}': {len(df)} companies")
 
     logger.info(f"screener_output.xlsx saved to {output_path}")

@@ -78,6 +78,13 @@ def run_full_engine():
     cf_data = fetch_table('cash_flow')
     fr_data = fetch_table('financial_ratios')
 
+    def _get_fcf_for_record(r):
+        cfo_val = r['cf'].get('operating_activity')
+        cfi_val = r['cf'].get('investing_activity')
+        if cfo_val is not None and cfi_val is not None:
+            return compute_fcf(cfo_val, cfi_val)
+        return None
+
     inserts = []
     
     for c in all_companies:
@@ -187,6 +194,27 @@ def run_full_engine():
                 start_sales_3 = start_3['pl'].get('sales')
                 if start_sales_3 is not None and sales is not None:
                     rev_cagr_3yr, _ = compute_cagr(start_sales_3, sales, 3)
+
+            # FCF CAGR 5yr
+            fcf_cagr_5yr = None
+            if i >= 5:
+                start_record = records[i-5]
+                start_fcf = _get_fcf_for_record(start_record)
+                if start_fcf is not None and fcf is not None:
+                    cagr_val, flag = compute_cagr(start_fcf, fcf, 5)
+                    if flag == "NORMAL":
+                        fcf_cagr_5yr = cagr_val
+                    elif flag == "DECLINE_TO_LOSS":
+                        fcf_cagr_5yr = -50.0
+                    elif flag == "TURNAROUND":
+                        fcf_cagr_5yr = 50.0
+                    elif flag == "BOTH_NEGATIVE":
+                        fcf_cagr_5yr = -20.0
+
+            # CFO / PAT ratio
+            cfo_pat_ratio = None
+            if cfo is not None and net_profit is not None and net_profit != 0:
+                cfo_pat_ratio = cfo / net_profit
                 
             # Composite Quality Score (5-yr avg CFO/PAT)
             comp_score = None
@@ -215,7 +243,7 @@ def run_full_engine():
                 ticker, year,
                 roce_percentage, debtor_days, inventory_days, days_payable, cash_conversion_cycle, working_capital_days, roa_percentage, high_leverage, icr_label, icr_warning_flag, net_debt, capex_intensity_label, fcf_conversion_rate,
                 npm, opm, roe, de, icr, asset_to, fcf, capex_cr, eps, bvps, div_payout_ratio, total_debt_cr, cash_from_operations_cr,
-                rev_cagr_3yr, rev_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, comp_score
+                rev_cagr_3yr, rev_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, fcf_cagr_5yr, cfo_pat_ratio, comp_score
             ))
             
     insert_sql = """
@@ -223,8 +251,8 @@ def run_full_engine():
             ticker, year,
             roce_percentage, debtor_days, inventory_days, days_payable, cash_conversion_cycle, working_capital_days, roa_percentage, high_leverage_flag, icr_label, icr_warning_flag, net_debt, capex_intensity_label, fcf_conversion_rate,
             net_profit_margin_pct, operating_profit_margin_pct, return_on_equity_pct, debt_to_equity, interest_coverage, asset_turnover, free_cash_flow_cr, capex_cr, earnings_per_share, book_value_per_share, dividend_payout_ratio_pct, total_debt_cr, cash_from_operations_cr,
-            revenue_cagr_3yr, revenue_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, composite_quality_score
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            revenue_cagr_3yr, revenue_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr, fcf_cagr_5yr, cfo_pat_ratio, composite_quality_score
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     """
     cursor.executemany(insert_sql, inserts)
     conn.commit()
