@@ -138,6 +138,18 @@ CREATE TABLE IF NOT EXISTS peer_groups (
     FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
 );
 
+-- 8b. Peer Percentiles (computed by src/analytics/peer.py)
+CREATE TABLE IF NOT EXISTS peer_percentiles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ticker TEXT NOT NULL,
+    peer_group_name TEXT NOT NULL,
+    metric TEXT NOT NULL,
+    raw_value REAL,
+    percentile_rank REAL,
+    year INTEGER NOT NULL,
+    FOREIGN KEY (ticker) REFERENCES companies(ticker) ON DELETE CASCADE
+);
+
 -- 9. Stock Prices
 CREATE TABLE IF NOT EXISTS stock_prices (
     ticker TEXT NOT NULL,
