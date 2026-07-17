@@ -27,8 +27,10 @@ env/
 reports/tearsheets/*.pdf
 reports/sector/*.pdf
 reports/portfolio/*.pdf
-reports/radar_charts/*.png
 output/*
 !output/.gitkeep
 !output/load_audit.csv
 !output/validation_failures.csv
+!output/data_quality_report.csv
+!output/screener_output.xlsx
+!output/peer_comparison.xlsx
